@@ -11,3 +11,7 @@ use of custom erro pages ... @app.errorHandler
 setting sash keys for giuthub anmd putting all of those files in github 
 
 lecture 4:
+using bootstrap for the navbar and customising the navbar also keeping the navbar file in a different part and using include tag in base html file .... using bootsrap for basic css on index html page 
+
+
+lecture 5:
