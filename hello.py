@@ -13,6 +13,40 @@ class NamerForm(FlaskForm):
     name = StringField('What is your name?', validators=[DataRequired()])
     submit = SubmitField('Submit')
 
+# Common WTForms Fields
+# StringField
+# PasswordField
+# TextAreaField
+# BooleanField
+# RadioField
+# SelectField
+# SelectMultipleField
+# FileField
+# SubmitField
+# DateField
+# IntegerField
+# DecimalField
+# Common WTForms Validators
+# DataRequired
+# Email
+# Length
+# EqualTo
+# NumberRange
+# Optional
+# URL
+# AnyOf
+# NoneOf
+
+
+
+
+
+
+
+
+
+
+
 #create a route n decorator
 
 @app.route('/')
@@ -64,6 +98,4 @@ def name():
         name=form.name.data
         form.name.data=''
         
-    return render_template("name.html",
-                           name=name,
-                             form=form)
+    return render_template("name.html",name=name,form=form)
