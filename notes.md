@@ -15,3 +15,4 @@ using bootstrap for the navbar and customising the navbar also keeping the navba
 
 
 lecture 5:
+what the form is is a independent system built on which is to be in stalled on the device by flask. CSRF token  is used to prevent the form from being submitted by other users. 
